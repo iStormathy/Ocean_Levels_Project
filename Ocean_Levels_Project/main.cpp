@@ -1,10 +1,11 @@
-// This program calculates the changes
-// in the ocean level over several years
+// This program calculates the level of the ocean after
+// five years, seven years, and ten years, assuming the
+// ocean raises at a rate of 1.5 millimeters per year
 #include <iostream>
 using namespace std;
 
 int main() {
-	double lvlC = 1.5; // this is the distance (in millimeters) the ocean rises in a year
+	double lvlC = 1.5; // The distance (in millimeters) the ocean rises in a year
 	int year5 = lvlC * 5;
 	int year7 = lvlC * 7;
 	int year10 = lvlC * 10;
