@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Ocean_Levels_Project/Ocean_Levels_Project.vcxproj" />
+  <Project Path="Ocean_Levels_Project/Ocean_Levels_Project.vcxproj" Id="8a6f195b-fa8d-43d1-8d5e-739c6c2bce6c" />
 </Solution>

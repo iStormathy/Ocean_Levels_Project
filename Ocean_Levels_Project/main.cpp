@@ -6,11 +6,11 @@ using namespace std;
 
 int main() {
 	double lvlC = 1.5; // The distance (in millimeters) the ocean rises in a year
-	int year5 = lvlC * 5;
-	int year7 = lvlC * 7;
-	int year10 = lvlC * 10;
-	cout << "In five years, the ocean will have risen " << year5 << " millimeters.\n";
-	cout << "In seven years, the ocean will have risen " << year7 << " millimeters.\n";
-	cout << "In ten years, the ocean will have risen " << year10 << " millimeters.\n";
+	double year5 = lvlC * 5;
+	double year7 = lvlC * 7;
+	double year10 = lvlC * 10;
+	cout << "In 5 years, the ocean will be " << year5 << " millimeters higher than its current level.\n";
+	cout << "In 5 years, the ocean will be " << year7 << " millimeters higher than its current level.\n";
+	cout << "In 5 years, the ocean will be " << year10 << " millimeters higher than its current level.\n";
 	return 0;
 }
